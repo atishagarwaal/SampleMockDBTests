@@ -1,7 +1,3 @@
-# TodoApp - API Unit Tests
-
-.NET unit test application to test Web API using MSTest.
-
 ## Overview
 This repository contains unit tests written in C# using the MSTest framework for testing a Web API (TodoApp). The tests exercise the API's business logic and can be executed using the .NET CLI.
 
@@ -44,9 +40,3 @@ To run a single test by name (using a filter):
 - Add or update tests in the test project(s) under the tests/ or src/ folders.
 - Run `dotnet test` locally and fix failures before pushing changes.
 - Consider adding a CI workflow to run `dotnet test` on pull requests.
-
-## Contributing
-Contributions are welcome. Please open issues or pull requests for bug fixes and improvements. Include unit tests for any new behavior.
-
-## License
-If this project should have a license, add a LICENSE file to the repository and update this section accordingly.
