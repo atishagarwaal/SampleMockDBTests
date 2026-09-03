@@ -9,7 +9,7 @@ builder.Configuration
     .SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-// Configure database service
+// Configure in-memory database service
 builder.Services.AddDbContext<DBContext>(options =>
             options.UseSqlite(builder.Configuration.GetConnectionString("TodoContext")));
 
